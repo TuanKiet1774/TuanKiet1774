@@ -30,13 +30,13 @@
   grid-column: 1/-1;" 
      src="https://github-readme-stats.vercel.app/api?username=tuankiet1774&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=true" width="auto" height="auto" />
 </div>
+
 ---
-<table align="center" style="border-collapse: collapse;">
+
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" align="center">
-      <img align="center" src="https://github-readme-stats.vercel.app/api?username=YhonV&theme=chartreuse-dark&show_icons=true&count_private=true" alt="GitHub Stats" />
-      <br><br>
-      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=YhonV&theme=chartreuse-dark&hide_border=false" />
+      <img alt="GitHub Streak" src="https://i.pinimg.com/originals/7c/6b/c9/7c6bc96a2d0e234efb20246ae33c03cf.gif" />
     </td>
     <td width="50%" align="center">
       <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=YhonV&theme=chartreuse-dark&hide_border=false&langs_count=10" alt="Top Languages" />
@@ -45,6 +45,7 @@
 </table>
 
 ---
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=tuankiet1774&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="95%" data-canonical-src="https://github-readme-activity-graph.vercel.app/graph?username=tuankiet1774&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" style="max-width: 150%;">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
