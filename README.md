@@ -26,7 +26,7 @@
   <img style="display: block;  
   margin-left: auto;
   margin-right: auto;
-  width:70% ;
+  width:60% ;
   grid-column: 1/-1;" 
      src="https://github-readme-stats.vercel.app/api?username=tuankiet1774&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=true" width="auto" height="auto" />
 </div>
@@ -34,12 +34,20 @@
 ---
 
 <table align="center" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td width="50%" align="center">
-      <img alt="GitHub Streak" src="https://i.pinimg.com/originals/7c/6b/c9/7c6bc96a2d0e234efb20246ae33c03cf.gif" />
+  <tr style="border: none;">
+    <td width="40%" align="center" style="border: none;">
+      <img 
+        src="https://i.pinimg.com/originals/7c/6b/c9/7c6bc96a2d0e234efb20246ae33c03cf.gif" 
+        style="border: none;" 
+      />
     </td>
-    <td width="50%" align="center">
-      <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=YhonV&theme=chartreuse-dark&hide_border=false&langs_count=10" alt="Top Languages" />
+    <td width="60%" align="center" style="border: none;">
+      <img 
+        align="center" 
+        src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=tuankiet1774&theme=chartreuse-dark&hide_border=false&langs_count=10" 
+        alt="Top Languages" 
+        style="border: none;" 
+      />
     </td>
   </tr>
 </table>
