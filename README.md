@@ -35,13 +35,13 @@
 
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
-    <td width="40%" align="center" style="border: none;">
+    <td width="50%" align="center" style="border: none;">
       <img 
         src="https://i.pinimg.com/originals/7c/6b/c9/7c6bc96a2d0e234efb20246ae33c03cf.gif" 
         style="border: none;" 
       />
     </td>
-    <td width="60%" align="center" style="border: none;">
+    <td width="50%" align="center" style="border: none;">
       <img 
         align="center" 
         src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=tuankiet1774&theme=chartreuse-dark&hide_border=false&langs_count=10" 
