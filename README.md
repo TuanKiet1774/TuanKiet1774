@@ -28,7 +28,7 @@
   margin-right: auto;
   width:60% ;
   grid-column: 1/-1;" 
-     src="https://github-readme-stats.vercel.app/api?username=tuankiet1774&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=true" width="auto" height="auto" />
+     src="https://github-readme-stats.vercel.app/api?username=TuanKiet1774&show_icons=true&theme=tokyonight" width="auto" height="auto" />
 </div>
 
 ---
