@@ -5,7 +5,7 @@
 <h1> 💻LANGUAGES PROGRAMING</h1>
 <p align="center">  
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,python,c,cpp,cs,dart,java" />
+    <img src="https://skillicons.dev/icons?i=js,html,css,python,c,cpp,cs,dart,java,php" />
   </a>
 </p>
 
