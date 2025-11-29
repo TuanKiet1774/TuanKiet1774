@@ -22,17 +22,6 @@
 
 # 📊GitHub Stats  
 
-<div align="center "> 
-  <img style="display: block;  
-  margin-left: auto;
-  margin-right: auto;
-  width:60% ;
-  grid-column: 1/-1;" 
-     src="https://github-readme-stats.vercel.app/api?username=TuanKiet1774&show_icons=true&theme=tokyonight" width="auto" height="auto" />
-</div>
-
----
-
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td width="50%" align="center" style="border: none;">
