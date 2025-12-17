@@ -22,7 +22,13 @@
 
 # 📊GitHub Stats  
 
-![TuanKiet1774's GitHub stats](https://github-readme-stats.vercel.app/api?username=TuanKiet1774&count_private=true&show_icons=true&theme=tokyonight)
+<center>
+  <img 
+        align="center" 
+        src="https://github-readme-stats.vercel.app/api?username=TuanKiet1774&count_private=true&show_icons=true&theme=tokyonight" 
+        style="border: none; with: 500px" 
+  />
+</center>
 
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
