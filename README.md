@@ -25,7 +25,7 @@
 <center>
   <img 
         align="center" 
-        src="https://github-readme-stats.vercel.app/api?username=TuanKiet1774&count_private=true&show_icons=true&theme=tokyonight" 
+        src="https://github-readme-stats.vercel.app/api?username=TuanKiet1774&show_icons=true&theme=tokyonight&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" 
         style="border: none; with: 500px" 
   />
 </center>
