@@ -22,6 +22,8 @@
 
 # 📊GitHub Stats  
 
+![TuanKiet1774's GitHub stats](https://github-readme-stats.vercel.app/api?username=TuanKiet1774&count_private=true&show_icons=true&theme=tokyonight)
+
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td width="50%" align="center" style="border: none;">
