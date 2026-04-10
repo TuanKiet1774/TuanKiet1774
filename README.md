@@ -5,7 +5,7 @@
 <h1> 💻LANGUAGES PROGRAMING</h1>
 <p align="center">  
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,python,c,cpp,cs,dart,java,php" />
+    <img src="https://skillicons.dev/icons?i=js,html,css,python,c,cpp,cs,dart,php" />
   </a>
 </p>
 
@@ -14,7 +14,7 @@
 <h1> 🛠️FRAMEWORKS & TOOLS </h1>
 <p align="center">  
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=dotnet,vscode,github,flutter" />
+    <img src="https://skillicons.dev/icons?i=vscode,github,flutter" />
   </a>
 </p>
 
