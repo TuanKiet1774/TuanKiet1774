@@ -14,7 +14,7 @@
 <h1> 🛠️FRAMEWORKS & TOOLS </h1>
 <p align="center">  
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,github,git,flutter,react,vite" />
+    <img src="https://skillicons.dev/icons?i=vscode,github,git,flutter,react,vite,androidstudio,arduino,postman" />
   </a>
 </p>
 
