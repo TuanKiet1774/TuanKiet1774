@@ -67,7 +67,6 @@
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TuanKiet1774&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" alt="Top Languages" />
 </p>
 
-
 ---
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
