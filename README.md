@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
-<h1> 💻LANGUAGES PROGRAMING</h1>
+<h1> LANGUAGES PROGRAMING</h1>
 <p align="center">  
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js,html,css,python,c,cpp,cs,dart,php" />
@@ -11,7 +11,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
-<h1> 🛠️FRAMEWORKS & TOOLS </h1>
+<h1> FRAMEWORKS & TOOLS </h1>
 <p align="center">  
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vscode,github,git,flutter,react,vite,androidstudio,arduino,postman" />
@@ -20,7 +20,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
-# 📊GitHub Stats  
+# GITHUB STATS  
 
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
