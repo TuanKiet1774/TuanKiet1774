@@ -1,0 +1,311 @@
+\documentclass[11pt,a4paper]{article}
+
+% ============================================================
+% NGÔN NGỮ VÀ FONT
+% ============================================================
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+\setdefaultlanguage{english}
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}
+
+% Tăng nhẹ khoảng cách giữa các dòng
+\usepackage{setspace}
+\setstretch{1.04}
+
+% ============================================================
+% BỐ CỤC
+% ============================================================
+\usepackage[
+  top=0.85cm,
+  bottom=0.85cm,
+  left=1.25cm,
+  right=1.25cm
+]{geometry}
+
+\usepackage{microtype}
+\usepackage{parskip}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{empty}
+\emergencystretch=1em
+
+% Tăng khoảng cách dòng trong bảng
+\renewcommand{\arraystretch}{1.08}
+
+% ============================================================
+% MÀU SẮC VÀ LIÊN KẾT
+% ============================================================
+\usepackage{xcolor}
+
+\definecolor{HarvardCrimson}{HTML}{A51C30}
+\definecolor{TextGray}{HTML}{2E2E2E}
+
+\color{TextGray}
+
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+
+% ============================================================
+% TIÊU ĐỀ, DANH SÁCH VÀ BẢNG
+% ============================================================
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ifthen}
+
+\titleformat{\section}
+  {\large\bfseries\sffamily\color{HarvardCrimson}}
+  {}
+  {0pt}
+  {}
+  [
+    \vspace{-0.35em}
+    \color{HarvardCrimson}
+    \rule{\linewidth}{0.6pt}
+  ]
+
+\titlespacing*{\section}
+  {0pt}
+  {0.65em}
+  {0.30em}
+
+\setlist[itemize]{
+  leftmargin=1.25em,
+  labelsep=0.45em,
+  itemsep=0.16em,
+  topsep=0.14em,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+% ============================================================
+% CÁC LỆNH TIỆN ÍCH
+% ============================================================
+
+\newcommand{\cvname}[1]{%
+  {\fontsize{24}{27}\selectfont
+   \bfseries
+   \sffamily
+   \color{HarvardCrimson}
+   #1}
+  \par
+}
+
+\newcommand{\cvheadline}[1]{%
+  \vspace{0.10em}
+  {\normalsize\sffamily\bfseries #1}
+  \par
+}
+
+\newcommand{\cvcontact}[1]{%
+  \vspace{0.14em}
+  {\small #1}
+  \par
+}
+
+% #1: Chức danh / bằng cấp
+% #2: Tổ chức / trường học
+% #3: Địa điểm
+% #4: Thời gian
+\newcommand{\cventry}[4]{%
+  \begin{tabularx}
+    {\linewidth}
+    {@{}>{\raggedright\arraybackslash}X
+    >{\raggedleft\arraybackslash}p{3.1cm}@{}}
+
+    \textbf{#1} &
+    \textbf{#4}
+    \\[0.05em]
+
+    \textit{#2}%
+    \ifthenelse{\equal{#3}{}}{}{ -- #3}
+    &
+
+  \end{tabularx}
+  \vspace{-0.20em}
+}
+
+% #1: Tên dự án
+% #2: Công nghệ / vai trò
+% #3: Thời gian
+\newcommand{\cvproject}[3]{%
+  \begin{tabularx}{\linewidth}
+    {@{}>{\raggedright\arraybackslash}X
+    @{\hspace{1em}}
+    r@{}}
+
+    \textbf{#1} &
+    \mbox{\textbf{#3}}
+    \\[0.05em]
+
+    \textit{#2} &
+  \end{tabularx}
+  \vspace{-0.20em}
+}
+
+\newcommand{\skillrow}[2]{%
+  \textbf{#1} & #2 \\[0.14em]
+}
+
+% ============================================================
+% NỘI DUNG CV
+% ============================================================
+
+\begin{document}
+
+% ============================================================
+% THÔNG TIN CÁ NHÂN
+% ============================================================
+\begin{center}
+  \cvname{Pham Tuan Kiet}
+
+  \cvcontact{
+    Nha Trang Ward
+    \quad|\quad
+    0333535952
+    \quad|\quad
+    \href{mailto:phamtuankiet1774@gmail.com}
+    {phamtuankiet1774@gmail.com}
+  }
+\end{center}
+
+\vspace{-0.20em}
+
+% ============================================================
+% MỤC TIÊU NGHỀ NGHIỆP
+% ============================================================
+\section{Career Objective}
+
+Seeking a professional environment to apply my academic foundation, gain hands-on experience, and sharpen technical skills, with the goal of contributing effective solutions and value to the organization as a Software Engineer.
+
+% ============================================================
+% HỌC VẤN
+% ============================================================
+\section{Education}
+
+\cventry
+  {Bachelor's Program in Software Engineering}
+  {Nha Trang University}
+  {Nha Trang Ward}
+  {2022 -- 2026}
+
+\begin{itemize}
+  \item GPA: 3.46/4.00.
+\end{itemize}
+
+% ============================================================
+% KINH NGHIỆM
+% ============================================================
+\section{Experience}
+
+\cvproject
+  {Full-Stack Developer Intern}
+  {Widosoft Company -- Nha Trang Ward}
+  {11/2025 -- 01/2026}
+
+\begin{itemize}
+  \item Developing the BeeLingual English-learning application using
+        Flutter and Dart.
+  \item Designing and implemented RESTful APIs using Node.js and
+        MongoDB Atlas, and deployed the backend on Render.
+  \item Repository: \href{https://github.com/TuanKiet1774/BeeLingual_App.git}
+    {https://github.com/TuanKiet1774/BeeLingual_App.git}
+\end{itemize}
+
+
+\cvproject
+  {LowCode Intern}
+  {FPT SoftWare -- Nha Trang Ward}
+  {08/2026 -- 11/2026}
+
+\begin{itemize}
+  \item Developing a multi-vendor e-commerce marketplace for books using OutSystems (Reactive Web)
+  \item Applying the 4-Layer Architecture Canvas standard ensures tight modularity, high scalability, and ease of maintenance.
+  \item Repository: \href{https://github.com/TuanKiet1774/KBookShop.git}
+    {https://github.com/TuanKiet1774/KBookShop.git}
+\end{itemize}
+
+% ============================================================
+% DỰ ÁN
+% ============================================================
+\section{Project}
+
+\cvproject
+  {Graduation Project -- Sign Language Learning and Recognition Application}
+  {
+    Flutter, Dart, Node.js, MongoDB, React.js
+  }
+  {02/2026 -- 05/2026}
+
+\begin{itemize}
+  \item Developing a mobile application and an administrative website
+        for the KSL system.
+  \item Integrate the MobileNetV2 model for real-time sign language alphabet recognition.
+  \item Integrate the Gemini API to standardize and generate
+        instructions for performing signs.
+  \item Repository: \href{https://github.com/TuanKiet1774/KSL_App.git}
+    {https://github.com/TuanKiet1774/KSL_App.git}
+\end{itemize}
+
+\cvproject
+  {KMovie -- Online Movie Streaming Application}
+  {
+    Flutter, Dart, Node.js, MongoDB
+  }
+  {01/2026}
+
+\begin{itemize}
+  \item Develop a mobile app for streaming movies online using Flutter/Dart.
+  \item The application uses an open movie data service API.
+  \item The backend system stores a separate list of movies to watch later.
+  \item Repository: \href{https://github.com/TuanKiet1774/KMovie_App.git}
+    {https://github.com/TuanKiet1774/KMovie_App.git}
+\end{itemize}
+
+
+\vspace{0.18em}
+
+% ============================================================
+% KỸ NĂNG
+% ============================================================
+\section{Technical Skills}
+
+\begin{tabularx}{\linewidth}
+  {@{}l@{\hspace{1.2em}}>{\raggedright\arraybackslash}X@{}}
+
+  \skillrow
+    {Programming Languages}
+    {C, C++, C\#, Python, Java, JavaScript, PHP, SQL, Dart}
+
+  \skillrow
+    {Web Technologies}
+    {HTML, CSS, React.js, Node.js, Express.js}
+
+  \skillrow
+    {Frameworks and Tools}
+    {Flutter, .NET, GitHub, Postman, OutSystem}
+
+  \skillrow
+    {Databases}
+    {Microsoft SQL Server, MySQL, PostgreSQL (Supabase), MongoDB}
+
+\end{tabularx}
+
+% % ============================================================
+% % THÀNH TÍCH
+% % ============================================================
+% \section{Achievements}
+
+% \begin{itemize}
+%   \item Recognized for very good academic performance during the
+%         2023--2026 academic years.
+%   \item Completed the Cybersecurity Basic Course in 2024.
+%   \item Won First Prize in the ``IoT \& AI Innovation Journey''
+%         Competition at STEM Day in 2025.
+% \end{itemize}
+
+\end{document}
