@@ -2,6 +2,8 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=25&pause=1499&color=F7473B&center=true&vCenter=true&width=435&lines=Xin+Ch%C3%A0o+T%C3%B4i+L%C3%A0+TuanKiet1774;Hi%2C+I'm+TuanKiet1774)](https://git.io/typing-svg)
+
 <h1> LANGUAGES PROGRAMING</h1>
 <p align="center">  
   <a href="https://skillicons.dev">
