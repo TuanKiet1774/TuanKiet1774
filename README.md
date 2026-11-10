@@ -72,11 +72,16 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 <div align="center">
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TuanKiet1774/TuanKiet1774/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TuanKiet1774/TuanKiet1774/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/TuanKiet1774/TuanKiet1774/output/github-contribution-grid-snake.svg">
+    <!-- Giao diện nền tối (Dark Mode) -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tuankiet1774/tuankiet1774/output/github-contribution-grid-snake-dark.svg">
+    <!-- Giao diện nền sáng (Light Mode) -->
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tuankiet1774/tuankiet1774/output/github-contribution-grid-snake.svg">
+    <!-- Fallback mặc định -->
+    <img alt="Snake contribution animation" src="https://raw.githubusercontent.com/tuankiet1774/tuankiet1774/output/github-contribution-grid-snake.svg" />
   </picture>
+
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
