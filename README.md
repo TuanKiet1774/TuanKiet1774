@@ -7,8 +7,6 @@
 </div>
 
 <div align="center">
-  <br/>
-
   <a href="www.linkedin.com/in/kiệt-phạm-tuấn-532849283" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn" />
   </a>
