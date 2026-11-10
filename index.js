@@ -3,7 +3,7 @@ const path = require('path');
 
 // ==================== CẤU HÌNH TẬP TRUNG ====================
 const CONFIG = {
-    DEVTO_USERNAME: 'devteam', // Thay bằng username Dev.to của bạn
+    DEVTO_USERNAME: 'tuankiet1774', // Thay bằng username Dev.to của bạn
     BLOG_LIMIT: 3,
     API_TIMEOUT: 6000, // Timeout 6s tránh treo GitHub Actions
     MARKERS: {
