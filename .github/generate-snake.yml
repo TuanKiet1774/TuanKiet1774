@@ -24,7 +24,7 @@ jobs:
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: nguyenquynhgia-79
+          github_user_name: tuankiet1774
           github_token: ${{ secrets.PAT_SNAKE || github.token }}
           outputs: |
             dist/github-contribution-grid-snake.svg
